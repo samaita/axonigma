@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
   avatar = "/images/avatar.png"
 
   [params.author]
-    name = "Samaita"
+    name = "Axonigma"
     avatar = "/images/avatar.png"
 
 [pagination]
