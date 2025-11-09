@@ -1,0 +1,36 @@
+baseURL = "https://axonigma.com/"
+languageCode = "en-us"
+title = "Axonigma"
+theme = "hugo-narrow"
+defaultContentLanguage = "en"
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "Axonigma"
+
+    [languages.en.params]
+      description = "Keeping Up Tech Update"
+
+  [languages.id]
+    languageName = "Bahasa Indonesia"
+    weight = 2
+    contentDir = "content/id"
+    title = "Axonigma"
+
+    [languages.id.params]
+      description = "Kabar Teknologi Terbaru"
+
+[params]
+  showLanguageSwitcher = true
+  avatar = "/images/avatar.png"
+
+  [params.author]
+    name = "Samaita"
+    avatar = "/images/avatar.png"
+
+[pagination]
+  pagerSize = 10
